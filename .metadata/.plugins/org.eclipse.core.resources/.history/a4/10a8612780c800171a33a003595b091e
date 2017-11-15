@@ -1,0 +1,5 @@
+package fr.utbm.entities.copy;
+
+public class Client {
+
+}

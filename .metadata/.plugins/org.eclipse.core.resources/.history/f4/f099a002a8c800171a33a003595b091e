@@ -1,0 +1,30 @@
+package fr.utbm.entities;
+
+import java.io.Serializable;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+public class Location implements Serializable {
+	@Id
+	@GeneratedValue
+	Integer id;
+	String city;
+
+	public Location() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Location(Integer id, String city) {
+		super();
+		this.id = id;
+		this.city = city;
+	}
+
+	public Location(String city) {
+		super();
+		this.city = city;
+	}
+
+}

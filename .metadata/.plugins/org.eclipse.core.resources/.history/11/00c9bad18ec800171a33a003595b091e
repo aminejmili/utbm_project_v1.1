@@ -1,0 +1,9 @@
+package fr.utbm.entities;
+
+import java.io.Serializable;
+
+public class Location implements Serializable {
+Integer id;
+String city;
+
+}

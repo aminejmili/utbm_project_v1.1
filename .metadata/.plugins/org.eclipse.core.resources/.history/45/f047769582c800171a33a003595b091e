@@ -1,0 +1,7 @@
+package fr.utbm.entities;
+
+public class Location {
+Integer id;
+String city;
+
+}

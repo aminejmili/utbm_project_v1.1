@@ -1,0 +1,11 @@
+package fr.utbm.entities;
+
+public class Client {
+
+	String firstname;
+	String lastname;
+	String adress;
+	String phone;
+	String email;
+	
+}

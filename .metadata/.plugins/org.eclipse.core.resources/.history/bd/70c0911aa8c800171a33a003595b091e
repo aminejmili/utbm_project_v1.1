@@ -1,0 +1,18 @@
+package fr.utbm.entities;
+
+import java.io.Serializable;
+import java.util.Date;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+public class CourseSession implements Serializable {
+	@Id
+	@GeneratedValue
+	Integer id;
+	Date startDate;
+	Date endDate;
+	String courseCode;
+	Integer locationID;
+	
+}

@@ -1,0 +1,19 @@
+package fr.utbm.entities;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+@Entity
+public class Client implements Serializable {
+	@Id @GeneratedValue
+	Integer id;
+	String firstname;
+	String lastname;
+	String adress;
+	String phone;
+	String email;
+	Integer courseSessionId;
+	
+	
+}

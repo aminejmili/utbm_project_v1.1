@@ -1,0 +1,17 @@
+package fr.utbm.entities;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+@Entity
+public class Client implements Serializable {
+	Integer id;
+	String firstname;
+	String lastname;
+	String adress;
+	String phone;
+	String email;
+	Integer courseSessionId;
+	
+	
+}

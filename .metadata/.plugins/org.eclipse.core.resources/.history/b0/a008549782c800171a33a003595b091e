@@ -1,0 +1,12 @@
+package fr.utbm.entities;
+
+import java.util.Date;
+
+public class CourseSession {
+	Integer id;
+	Date startDate;
+	Date endDate;
+	String courseCode;
+	Integer locationID;
+
+}

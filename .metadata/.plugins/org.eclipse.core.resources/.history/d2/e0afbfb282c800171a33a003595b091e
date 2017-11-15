@@ -1,0 +1,15 @@
+package fr.utbm.entities;
+
+import java.io.Serializable;
+
+public class Client implements Serializable {
+
+	String firstname;
+	String lastname;
+	String adress;
+	String phone;
+	String email;
+	Integer courseSessionId;
+	
+	
+}
